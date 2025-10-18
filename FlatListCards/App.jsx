@@ -10,7 +10,7 @@ const phones = [
     description:
       "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quaerat rem deleniti illo!",
     background: "#FFF44F",
-    nameColor: "#FF6347"
+    nameColor: "#FF6347",
   },
   {
     name: "Samsung Galaxy A22",
@@ -18,7 +18,7 @@ const phones = [
     description:
       "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quaerat rem deleniti illo!",
     background: "#FFD700",
-    nameColor: "white"
+    nameColor: "white",
   },
   {
     name: "Google Pixel 9",
@@ -26,7 +26,7 @@ const phones = [
     description:
       "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quaerat rem deleniti illo!",
     background: "#FFEF00",
-    nameColor: "#FF7F50"
+    nameColor: "#FF7F50",
   },
   {
     name: "Lenovo",
@@ -34,8 +34,8 @@ const phones = [
     description:
       "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quaerat rem deleniti illo!",
     background: "#FFC300",
-    nameColor: "white"
-  }
+    nameColor: "white",
+  },
 ];
 
 const laptops = [
@@ -45,7 +45,7 @@ const laptops = [
     description:
       "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quaerat rem deleniti illo!",
     background: "#7DA77D",
-    nameColor: "white"
+    nameColor: "white",
   },
   {
     name: "Dell",
@@ -53,7 +53,7 @@ const laptops = [
     description:
       "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quaerat rem deleniti illo!",
     background: "#A8C0A8",
-    nameColor: "#FF7F50"
+    nameColor: "#FF7F50",
   },
   {
     name: "HP",
@@ -61,7 +61,7 @@ const laptops = [
     description:
       "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quaerat rem deleniti illo!",
     background: "#DDE8DD",
-    nameColor: "#FF6F61"
+    nameColor: "#FF6F61",
   },
   {
     name: "Lenovo",
@@ -69,8 +69,8 @@ const laptops = [
     description:
       "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quaerat rem deleniti illo!",
     background: "#6B8E6B",
-    nameColor: "white"
-  }
+    nameColor: "white",
+  },
 ];
 
 export default function App() {
@@ -117,19 +117,19 @@ const styles = StyleSheet.create({
     flex: 1,
     width: phoneWidth,
     padding: 20,
-    backgroundColor: "#FF6347"
+    backgroundColor: "#FF6347",
   },
   bigTitle: {
     fontSize: 30,
     fontWeight: "bold",
     color: "#FFF",
-    textAlign: "center"
+    textAlign: "center",
   },
   smallTitle: {
     fontSize: 20,
     fontWeight: "bold",
     color: "#FFD700",
     paddingVertical: 8,
-    textAlign: "center"
-  }
+    textAlign: "center",
+  },
 });
